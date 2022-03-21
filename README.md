@@ -9,5 +9,5 @@ busybox httpd -h . -p 8080
 
 #play with mpv
 
-mpv http://x.x.x.x:8080/rtsp://a.com/live
+mpv http://localhost:8080/cgi-bin/rtsp.cgi/rtsp://x.x.com/live
 ```
