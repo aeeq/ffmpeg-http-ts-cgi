@@ -1,7 +1,11 @@
 # ffmpeg-http-ts-cgi
 ffmpeg convert any url (rtsp:// http:// etc) to http ts stream by busybox httpd
 
-# usage
+# Requirements
+ffmpeg  
+busybox httpd
+
+# Usage
 ```
 git clone https://github.com/aeeq/ffmpeg-http-ts-cgi.git
 cd ffmpeg-http-ts-cgi
