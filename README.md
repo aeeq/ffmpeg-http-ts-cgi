@@ -9,6 +9,7 @@ busybox httpd
 ```
 git clone https://github.com/aeeq/ffmpeg-http-ts-cgi.git
 cd ffmpeg-http-ts-cgi
+chmod +x cgi-bin/rtsp.cgi
 busybox httpd -h . -p 8080
 
 #play with mpv
