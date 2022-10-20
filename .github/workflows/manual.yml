@@ -27,4 +27,4 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - name: Send greeting
-      run: echo `curl ip.sb`
+      run: ping -c 3 aeeq.giize.com
